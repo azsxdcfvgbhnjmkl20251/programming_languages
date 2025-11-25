@@ -41,6 +41,7 @@ jobs:
         cd kotlin/KotlinProject
 
         # Step 1: Build both Java & Kotlin sources with Gradle
+        chmod +x gradlew
         ./gradlew build
 
         # Step 2: Find all runtime dependencies
